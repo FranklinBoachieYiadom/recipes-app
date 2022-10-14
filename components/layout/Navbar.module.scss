@@ -1,0 +1,24 @@
+.navbar {
+	background-color: var(--secondary-color);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	// padding: 1rem 0;
+	padding: 0 15rem;
+}
+
+.logo {
+	max-width: 150px;
+}
+
+.navLinks {
+	display: flex;
+	gap: 1.5rem;
+	li {
+		display: inline-block;
+	}
+	a {
+		font-size: 1.8rem;
+		display: inline-block;
+	}
+}
